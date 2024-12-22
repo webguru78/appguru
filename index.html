@@ -10,8 +10,6 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -30,24 +28,25 @@ https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css
 " rel="stylesheet">
  
    <!-- Manifest File -->
-   <link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.json">
 
-   <!-- Theme Color (for mobile browsers) -->
-   <meta name="theme-color" content="#007bff">
-   
-   <!-- Register Service Worker -->
-   <script>
-     if ("serviceWorker" in navigator) {
-       navigator.serviceWorker
-         .register("service-worker.js")
-         .then(() => console.log("Service Worker Registered"))
-         .catch((error) => console.error("Service Worker Registration Failed:", error));
-     }
-   </script>
+<!-- Theme Color (for mobile browsers) -->
+<meta name="theme-color" content="#007bff">
+
+<!-- Register Service Worker -->
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(() => console.log("Service Worker Registered"))
+      .catch((error) => console.error("Service Worker Registration Failed:", error));
+  }
+</script>
 
 </head>
 
 <body>
+  
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -601,7 +600,7 @@ https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/js/main.js"></script>
-    <script src="service-worker.js"></script>
+   <script src="service-worker.js"></script>
 
 </body>
 

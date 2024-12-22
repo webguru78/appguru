@@ -1,11 +1,11 @@
-const CACHE_NAME = "webguru-cache-v1";
+const CACHE_NAME = "bizkey-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
   "assets/css/style.css", // Replace with your actual CSS file path
   "assets/img/logo.jpg",
   "assets/img/logo.jpg",
-  "assets/img/logo.jpg",
+  "assets/img/logo-512x512.png",
   "assets/js/main.js" // Replace with your actual JS file path
 ];
 
